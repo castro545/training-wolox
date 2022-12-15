@@ -1,0 +1,82 @@
+
+.app {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.head {
+  height: 8px;
+  width: full;
+  background-color: #00ADEE;
+}
+.rectangle {
+    height: 634px;
+    width: 300px;
+    background-color: #F4F4F4;
+}
+.rectangle-1 {
+  height: 32px;
+  width: 252px;
+  border-radius: 5px;
+  background-color: #FFF;
+}
+
+
+.text-label {
+  height: 22px;
+  width: 206px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+}
+.group-1 {
+  margin-top: 15px;
+  height: 32px;
+  width: 252px;
+  border-radius: 5px;
+  background-color: #BED23C;
+}
+.sign-up {
+  height: 22px;
+  width: 58px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: transparent;
+}
+
+.rectangle-2 {
+  height: 2px;
+  width: 252px;
+  background-color: #A8A8A8;
+  margin: 10px 25px  ;
+}
+
+.group-login {
+  box-sizing: border-box;
+  height: 32px;
+  width: 252px;
+  border-radius: 5px;
+  background-color: #F4F4F4;
+  border: 2px solid #BED23C;
+}
+
+.login {
+  height: 22px;
+  width: 40px;
+  color: #BED23C;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 24px;
+}
+.logo-Wolox{
+   height: 70px;
+   width: 212.42px;
+}
+
+

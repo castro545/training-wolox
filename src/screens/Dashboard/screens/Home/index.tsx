@@ -17,7 +17,6 @@ interface TechForm {
 
 function Home() {
   const { t, i18n } = useTranslation();
-
   // Example of how to use these custom hooks
   const tech = useSelector((state) => state.tech);
   const dispatch = useDispatch();
