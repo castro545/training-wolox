@@ -5,9 +5,7 @@
     "@wolox/eslint-config-typescript",
     "plugin:testing-library/react"
   ],
-  "plugins": [
-    "testing-library"
-  ],
+  "plugins": ["testing-library"],
   "settings": {
     "react": {
       "version": "detect"

@@ -21,13 +21,13 @@ export const ROUTES = [
     element: <Login />,
     title: 'Routes:loginTitle',
     description: 'Routes:loginDescription',
-    redirectTo: (user: User | null) => (user ? MAIN_PRIVATE_PATH : undefined)
+    redirectTo: (user: User | null) => (user ? undefined : MAIN_PUBLIC_PATH)
   },
   {
     path: PATHS.home,
     element: <Home />,
     title: 'Routes:homeTitle',
     description: 'Routes:homeDescription',
-    redirectTo: (user: User | null) => (user ? undefined : MAIN_PUBLIC_PATH)
+    redirectTo: (user: User | null) => (user ? MAIN_PRIVATE_PATH : undefined)
   }
 ];

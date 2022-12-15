@@ -1,6 +1,6 @@
 const paths = {
-  home: '/',
-  login: '/login',
+  home: '/home',
+  login: '/',
   recoverPassword: '/recover_password*',
   registration: '/registration*'
 };
