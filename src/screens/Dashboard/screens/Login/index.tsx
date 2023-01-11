@@ -2,7 +2,7 @@ import { ChangeEvent, useState } from 'react';
 
 import styles from './styles.module.scss';
 import logo from './assets/LogoWolox.png';
-import { dataForm } from './constants';
+import { SIGN_UP_FIELDS } from './constants';
 
 function Login() {
   const [user, setUser] = useState({
@@ -25,25 +25,21 @@ function Login() {
   // crear en la carpeta constants dentro de Login
   return (
     <div className={styles.app}>
-      <form className={styles.rectangle}>
-        <div className={styles.head} />
+      <form className={styles.container}>
+        <div className={styles.headContainer} />
         <img src={logo} className={styles.logoWolox} alt="logo" />
-
-        <label>
-          {dataForm.map((data) => (
-            <div key={data.name}>
-              <p className={styles.textLabel}>{data.label}</p>
-              <input type={data.type} name={data.name} className={styles.rectangle1} onChange={changeValue} />
-            </div>
-          ))}
-        </label>
-
-        <button type="button" onClick={printData} className={styles.group1}>
-          <p className={styles.signUp}>Sing Up</p>
+        {SIGN_UP_FIELDS.map((data) => (
+          <div key={data.name} className={styles.content}>
+            <label className={styles.textLabel}>{data.label}</label>
+            <input type={data.type} name={data.name} className={styles.input} onChange={changeValue} />
+          </div>
+        ))}
+        <button type="button" onClick={printData} className={styles.btnPrimary}>
+          <p>Sign Up</p>
         </button>
-        <div className={styles.rectangle2} />
-        <button type="button" className={styles.groupLogin}>
-          <p className={styles.login}>Login</p>
+        <div className={styles.dividerLine} />
+        <button type="button" className={styles.btnSecondary}>
+          <p>Login</p>
         </button>
       </form>
     </div>
