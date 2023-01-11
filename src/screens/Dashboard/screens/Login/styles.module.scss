@@ -1,0 +1,90 @@
+@import 'scss/variables/_colors';
+@import 'scss/variables/_fonts';
+
+.app {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.head-container {
+  background-color: $cerulean;
+  height: 8px;
+  width: full;
+}
+.container {
+    background-color: $wild-sand;
+    height: 634px;
+    width: 300px;
+}
+
+.content{
+  margin: 10px 25px;
+}
+
+.input {
+  background-color: $white;
+  border-radius: 5px;
+  height: 32px;
+  width: 252px;
+}
+
+.text-label {
+  color: $black;
+  font-family: $Roboto;
+  font-size: 16px;
+  height: 22px;
+  margin: 5px 5px;
+  line-height: 24px;
+  text-align: left;
+  width: 100%;
+}
+
+.btn-primary{
+  background-color: $earls-green;
+  border-radius: 5px;
+  height: 32px;
+  margin-top: 15px;
+  width: 252px;
+}
+
+.btn-primary p {
+  background-color: transparent;
+  color: $white;
+  font-family: $Roboto;
+  font-size: 16px;
+  height: 22px;
+  line-height: 24px;
+  width: 58px;
+}
+
+.divider-line{
+  background-color: $silver-chalice;
+  height: 2px;
+  margin: 10px 25px;
+  width: 252px;
+}
+
+.btn-secondary {
+  background-color: $wild-sand;
+  border: 2px solid $earls-green;
+  border-radius: 5px;
+  box-sizing: border-box;
+  height: 32px;
+  width: 252px;
+}
+
+.btn-secondary p {
+  color: $earls-green;
+  font-family: $Roboto;
+  font-size: 16px;
+  height: 22px;
+  line-height: 24px;
+  width: 40px;
+}
+
+.logo-Wolox{
+   height: 70px;
+   width: 212px;
+}
